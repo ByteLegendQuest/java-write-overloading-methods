@@ -16,8 +16,8 @@ public class Challenge {
     }
     public static int add(String... ss) {
         String res = "";
-        for(String s : ss) {
-            res += s;
+        for(String str : ss) {
+            res += str;
         }
         return res;
     }
