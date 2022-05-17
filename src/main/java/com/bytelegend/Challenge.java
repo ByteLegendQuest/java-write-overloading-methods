@@ -15,7 +15,8 @@ public class Challenge {
 
     public static int add(int num1, int... nums) {
         int ans = num1;
-        for (int num : nums) ans += num;
+        for (int i = 0; i < nums.length; i++) ans += nums[i];
         return ans;
     }
+
 }
