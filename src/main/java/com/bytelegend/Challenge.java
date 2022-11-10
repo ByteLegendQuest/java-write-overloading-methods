@@ -8,11 +8,11 @@ public class Challenge {
         System.out.println("A+B+C=" + add("A", "B", "C"));
     }
 
-    public int add(int i, int j){
+    public String add(int i, int j){
         return i+j;
     }
 
-    public int add(int i, int j, int k){
+    public String add(int i, int j, int k){
         return i+j+k;
     }
 
